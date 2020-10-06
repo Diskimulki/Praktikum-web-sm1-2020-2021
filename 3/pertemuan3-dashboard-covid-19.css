@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+    background-image: url("2.jpg");
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #C0392b;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  margin-top: 20px;
+  color: white;
+}
+
+.round-box {
+ 
+  border: 15px solid green;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: aqua;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: yellowgreen;}
+  25%  {background-color: rgb(11, 210, 224);}
+  50%  {background-color: pink;}
+  100% {background-color: aquamarine;}
+}
