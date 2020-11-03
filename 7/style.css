@@ -1,0 +1,129 @@
+body {
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    padding: 10px;
+    background: #28e47d;
+  }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #000000;
+}
+
+.logo img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background:   rgb(95, 117, 117);
+    margin-top: 20px;
+    color: white;
+  }
+
+.round-box {
+    border: 15px solid  rgb(116, 95, 117);
+    padding: 50px;
+    margin: 20px;
+    background-color:  rgb(25, 250, 100);;
+    animation-name: warna;
+  animation-duration: 30s;
+  }
+
+@keyframes warna {
+    0% {background-color: rgb(226, 255, 60);}
+    10% {background-color: rgb(25, 235, 250);}
+    20% {background-color: rgb(35, 255, 90);}
+    30% {background-color: rgb(226, 255, 60);}
+    40% {background-color:  rgb(25, 235, 250);}
+    50% {background-color:rgb(35, 255, 90);}
+    60% {background-color:rgb(226, 255, 60);}
+    70% {background-color:  rgb(25, 235, 250);}
+    80% {background-color: rgb(35, 255, 90);}
+    90% {background-color:rgb(226, 255, 60);}
+    100% {background-color: rgb(25, 235, 250);}
+  }
+
+.shadow{
+    text-shadow: 2px 2px 5px rgb(0, 17, 255);
+}
+
+.container {
+  width: 956px;
+  border: 12px solid rgb(0, 96, 206);
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.container a {
+  width: 105px;
+  height: 70px;
+  background-color:rgb(255, 30, 30);
+  margin: 5px;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: rgb(169, 99, 250);
+  }
+}
+
+@media (max-width: 700px){
+  .shadow {
+    background-color: rgb(20, 235, 1);
+  }
+}
+
+@media (max-width: 600px) {
+  .lion {
+    background-color: rgb(4, 255, 234);
+  }
+}
+
+.konten{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slide{
+  width:550px;
+  height:305px;
+  margin:10px;
+  padding:10px;
+  background-color: white ;
+}
+
+.kotak_info:before,.kotak_info:before{padding-right:.5em;position:absolute;font-weight:400}
+.kotak_info{font-family:'Open Sans',sans-serif}
+.kotak_info{line-height:1.5em;position:relative}
+.kotak_infobox{margin:20px 0;padding:4px 0;background:#FF8000;display:block}
+.kotak_info{margin:0 4px;padding:10px 10px 10px 60px;color:#fff;border:2px dashed #efefef}
+.kotak_info:before,.kotak_info:before{font-size:40px;font-family:FontAwesome;margin-top:-13px}
+.kotak_info:before{color:#000;top:50%;left:10px}
+.kotak_info a {color:#000;font-weight:600;position:relative;padding-right:20px;display:inline-block}
+.kotak_info a:before{content:"f08e";font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit;color:#000;position:absolute;bottom:0;right:0}
